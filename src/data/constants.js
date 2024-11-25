@@ -172,7 +172,7 @@ export const projects = [
     description:
       " Wanderlust, a comprehensive full-stack web application inspired by Airbnb. The platform allows users to list and book properties, offering features such as user authentication, reviews, and payment gateway feature. The project leverages MongoDB, Express.js, and Node.js to create a robust and scalable application.",
     image:
-      "https://private-user-images.githubusercontent.com/131394980/389589557-313021fa-127e-40e1-8b5e-618d8d59cd34.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI1NDgyNTUsIm5iZiI6MTczMjU0Nzk1NSwicGF0aCI6Ii8xMzEzOTQ5ODAvMzg5NTg5NTU3LTMxMzAyMWZhLTEyN2UtNDBlMS04YjVlLTYxOGQ4ZDU5Y2QzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyNVQxNTE5MTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zOWNjOGZhNzRhNmUyOWY3NDQxNWZiMDMwOTE5NDcxMjhiZWViNWZjYTlkMTVkM2QxZGRiNTg3ZTRkOGYxMzZjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.HkzaSmwHFNBmLxUg3Edkga3UIyaNvYhOuKr-khwt-r0",
+      "https://github.com/user-attachments/assets/a16e791a-51c9-48e3-bd7d-dc16d1f31378",
     tags: ["Html","CSS","Bootstrap" ,"Javascript","MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/Deepak8081/Wanderlust",

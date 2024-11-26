@@ -211,19 +211,19 @@ export const projects = [
   //   webapp: "https://github.com/rishavchanda/Job-finder-App",
   // },
  
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
+  {
+    id: 5,
+    title: "Todo Web App",
+    date: "Jun 2024",
+    description:
+      " A dynamic Todo Web App built using React JS. It features a user-friendly sidebar where users can conveniently view all their tasks, create new tasks, and manage their to-do list effortlessly. With this app, users can not only add new tasks but also edit and delete existing ones, ensuring optimal productivity and organization.",
+    image:
+      "https://github.com/user-attachments/assets/6c923f1c-5980-47e4-b237-064f52e0bfa5",
+    tags: ["React Js", "Local Storage","CSS"],
+    category: "web app",
+    github: "https://github.com/Deepak8081/reactJS_todoList/tree/main/reactJs_todoList-main",
+    webapp: "https://react-todo-app-deepak8081s-projects.vercel.app/",
+  },
   // {
   //   id: 6,
   //   title: "Breaking Bad",

@@ -2,13 +2,14 @@ export const Bio = {
   name: "Deepak",
   roles: [
     "Full Stack Developer",
-    "Programmer",
+    "Frontend Developer",
+    "Backend Developer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Deepak8081",
   resume:
-    "https://drive.google.com/file/d/1KBwxzbE81JVzmnoNLk_q5RCf6V8Wp4xp/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1WtYr1z7z44bGllXXinFEX0zrEayhADDy/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/deepak-chakravarti-1a5915256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   twitter: "https://twitter.com/deepak",
   insta: "https://www.instagram.com/deepak_chakaravarti",
@@ -164,9 +165,21 @@ export const education = [
 ];
 
 export const projects = [
-  
   {
     id: 0,
+    title: "Learning Management System",
+    date: "October 2024 - November 2024",
+    description:
+      "Learning Management System (LMS) is a robust and user-friendly platform designed to facilitate online education and training. It provides educators with tools to create and manage courses, while offering students a seamless and engaging learning experience.With this comprehensive LMS, educators can focus on teaching, while students enjoy a seamless and engaging learning experience. This system not only supports diverse learning activities but also ensures secure and efficient transactions for a complete educational solution.",
+    image:
+      "https://github.com/user-attachments/assets/0e6606ac-fa79-47cf-ad4b-80c22293b388",
+    tags: ["React","Shadcn UI","Javascript", "Node Js", "Express Js","MongoDb"],
+    category: "web app",
+    github: "https://github.com/Deepak8081/Learning-Management-System-",
+
+  },
+  {
+    id: 1,
     title: "Wanderlust",
     date: "July 2024 - August 2024",
     description:
@@ -179,7 +192,7 @@ export const projects = [
 
   },
   {
-    id: 1,
+    id: 2,
     title: "Weather App",
     date: "March 2024 - April 2024",
     description:

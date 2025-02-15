@@ -9,11 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Deepak8081",
   resume:
-<<<<<<< HEAD
     "https://drive.google.com/file/d/1WtYr1z7z44bGllXXinFEX0zrEayhADDy/view?usp=drivesdk",
-=======
-    "https://drive.google.com/file/d/1CXwRHtaPnrOAW2WyzpDecc9D-Wsy3-F0/view?usp=sharing",
->>>>>>> 6223946d3ae19a237d84f760d367674fe6f68bb1
   linkedin: "https://www.linkedin.com/in/deepak-chakravarti-1a5915256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   twitter: "https://twitter.com/deepak",
   insta: "https://www.instagram.com/deepak_chakaravarti",

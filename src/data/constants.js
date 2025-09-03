@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Deepak8081",
-  resume:"https://drive.google.com/file/d/1WtYr1z7z44bGllXXinFEX0zrEayhADDy/view?usp=drivesdk",
+  resume: "https://drive.google.com/file/d/1WtYr1z7z44bGllXXinFEX0zrEayhADDy/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/deepak-chakravarti-1a5915256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   twitter: "https://twitter.com/deepak",
   insta: "https://www.instagram.com/deepak_chakaravarti",
@@ -23,6 +23,10 @@ export const skills = [
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Next.js",
+        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiBNMTIgMThsLTQtNmgzVjloMlYxMmgtM1YxOGgzeiIvPjwvc3ZnPg=="
       },
       {
         name: "HTML",
@@ -92,7 +96,7 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      
+
       {
         name: "VS Code",
         image:
@@ -104,6 +108,19 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 0,
+    img: "https://tse4.mm.bing.net/th?id=OIP.NDv5rJKwf_Fnti-Dk3W-rwHaHa&pid=Api&P=0&h=180",
+    role: "Frontend Developer Intern",
+    company: "Sinfolix Technologies",
+    date: "Jan 2025 - Jun 2025",
+    desc: "Working on the frontend of the web application using React JS, Tailwind CSS , Framer Motion",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    doc: "https://github.com/user-attachments/assets/410f99c1-8333-4eb6-a5e7-7a94d02146e0",
+  }, {
     id: 0,
     img: "https://tse4.mm.bing.net/th?id=OIP.NDv5rJKwf_Fnti-Dk3W-rwHaHa&pid=Api&P=0&h=180",
     role: "Web Developer Intern",
@@ -138,9 +155,9 @@ export const education = [
     id: 0,
     img: "https://tse4.mm.bing.net/th?id=OIP._68CoKveNnsWUHr5VG2Z0QAAAA&pid=Api&P=0&h=180",
     school: "Kali Charan Nigam Institute of Technology Banda",
-    date: "Oct 2021 - Sep 2025",
-    grade: "7.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kali Charan Nigam Institute of Technology Banda. I have completed 6 semesters and have a CGPA of 7.71.",
+    date: "Oct 2021 - Jun 2025",
+    grade: "7.77 CGPA",
+    desc: "I have completed my Bachelor's degree in Computer Science and Engineering at Kali Charan Nigam Institute of Technology Banda. I have completed 8 semesters and have a CGPA of 7.77.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -166,32 +183,45 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Job Portal",
+    date: "March 2025 - May 2025",
+    description:
+      "Job Portal is a web-based platform designed to connect job seekers with employers efficiently. It allows users to create profiles, search and apply for jobs, and track application statuses. Employers can post job openings, review applications, and manage candidate communications seamlessly. This portal provides a secure, interactive, and user-friendly experience for both job seekers and recruiters.",
+    image:
+      "https://github.com/user-attachments/assets/0e6606ac-fa79-47cf-ad4b-80c22293b388",
+    tags: ["React", "Shadcn UI", "Tailwind CSS", "Javascript", "Node Js", "Express Js", "MongoDb"],
+    category: "web app",
+    github: "https://github.com/Deepak8081/Job_Portal",
+
+  },
+  {
+    id: 1,
     title: "Learning Management System",
     date: "October 2024 - November 2024",
     description:
       "Learning Management System (LMS) is a robust and user-friendly platform designed to facilitate online education and training. It provides educators with tools to create and manage courses, while offering students a seamless and engaging learning experience.With this comprehensive LMS, educators can focus on teaching, while students enjoy a seamless and engaging learning experience. This system not only supports diverse learning activities but also ensures secure and efficient transactions for a complete educational solution.",
     image:
       "https://github.com/user-attachments/assets/0e6606ac-fa79-47cf-ad4b-80c22293b388",
-    tags: ["React","Shadcn UI","Javascript", "Node Js", "Express Js","MongoDb"],
+    tags: ["React", "Shadcn UI", "Javascript", "Node Js", "Express Js", "MongoDb"],
     category: "web app",
     github: "https://github.com/Deepak8081/Learning-Management-System-",
 
   },
   {
-    id: 1,
+    id: 2,
     title: "Wanderlust",
     date: "July 2024 - August 2024",
     description:
       " Wanderlust, a comprehensive full-stack web application inspired by Airbnb. The platform allows users to list and book properties, offering features such as user authentication, reviews, and payment gateway feature. The project leverages MongoDB, Express.js, and Node.js to create a robust and scalable application.",
     image:
       "https://github.com/user-attachments/assets/a16e791a-51c9-48e3-bd7d-dc16d1f31378",
-    tags: ["Html","CSS","Bootstrap" ,"Javascript","MongoDb", "Node Js", "Express Js"],
+    tags: ["Html", "CSS", "Bootstrap", "Javascript", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/Deepak8081/Wanderlust",
 
   },
   {
-    id: 2,
+    id: 3,
     title: "Weather App",
     date: "March 2024 - April 2024",
     description:
@@ -222,7 +252,7 @@ export const projects = [
   //   github: "https://github.com/rishavchanda/Job-finder-App",
   //   webapp: "https://github.com/rishavchanda/Job-finder-App",
   // },
- 
+
   {
     id: 5,
     title: "Todo Web App",
@@ -231,7 +261,7 @@ export const projects = [
       " A dynamic Todo Web App built using React JS. It features a user-friendly sidebar where users can conveniently view all their tasks, create new tasks, and manage their to-do list effortlessly. With this app, users can not only add new tasks but also edit and delete existing ones, ensuring optimal productivity and organization.",
     image:
       "https://github.com/user-attachments/assets/6c923f1c-5980-47e4-b237-064f52e0bfa5",
-    tags: ["React Js", "Local Storage","CSS"],
+    tags: ["React Js", "Local Storage", "CSS"],
     category: "web app",
     github: "https://github.com/Deepak8081/reactJS_todoList/tree/main/reactJs_todoList-main",
     webapp: "https://react-todo-app-deepak8081s-projects.vercel.app/",
@@ -249,7 +279,7 @@ export const projects = [
   //   github: "https://github.com/rishavchanda/Breaking-Bad",
   //   webapp: "https://breaking-bad-webapp.netlify.app",
   // },
-  
+
 ];
 
 export const TimeLineData = [

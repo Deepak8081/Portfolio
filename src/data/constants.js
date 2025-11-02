@@ -183,6 +183,33 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "ERP",
+    date: "July 2025 - September 2025",
+    description:
+      "ERP System is an internal company management platform built to streamline employee operations and enhance team collaboration. It includes features like real-time chat, attendance tracking, SEO team report submissions, and secure access limited to the company’s office Wi-Fi IP. The admin can assign tasks, generate invoices, and view daily, weekly, and monthly performance reports. Developed with modern web technologies, it ensures secure access control, efficient communication, and smooth workflow management across departments",
+    image:
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/131394980/508666067-b0d6d2bb-d584-4a8b-ad9d-758be8f24ab2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251102T043140Z&X-Amz-Expires=300&X-Amz-Signature=746324ec74978c10f402c2879b22262ae238e2d8fefa0a31345b04dca35fa78f&X-Amz-SignedHeaders=host",
+    tags: ["React", "Shadcn UI", "Tailwind CSS", "Javascript", "Node Js", "Express Js", "MongoDb"],
+    category: "web app",
+    github: "https://github.com/Deepak8081/ERP",
+
+  },
+  {
+    id: 1,
+    title: "Bageshwardhaam Website",
+    date: "June 2025 - June 2025",
+    description:
+      "Bageshwardhaam Website is a modern, responsive platform developed to share spiritual events, live updates, and information about Bageshwar Dham. It features a clean user interface, fast performance, and dynamic content management. The website provides visitors with access to event schedules, media galleries, and contact information, ensuring a seamless and engaging browsing experience across all devices.",
+    image:
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/131394980/508666717-6b1f41c1-2540-4cc5-87da-849c6f649ba0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251102T043524Z&X-Amz-Expires=300&X-Amz-Signature=8ae781daf1232c6eebbec8159973bf3a24a55f087bf00e76bec24e0e06e758d3&X-Amz-SignedHeaders=host",
+    tags: ["React", "Shadcn UI", "Tailwind CSS", "Javascript", "Node Js", "Express Js", "MongoDb"],
+    category: "web app",
+    github: "https://github.com/rahul-madaan/Bageshwardham",
+    webapp: "https://bageshwardhaam.co.in/",
+
+  },
+  {
+    id: 2,
     title: "Job Portal",
     date: "March 2025 - May 2025",
     description:
@@ -195,7 +222,7 @@ export const projects = [
 
   },
   {
-    id: 1,
+    id: 3,
     title: "Learning Management System",
     date: "October 2024 - November 2024",
     description:
@@ -208,7 +235,7 @@ export const projects = [
 
   },
   {
-    id: 2,
+    id: 4,
     title: "Wanderlust",
     date: "July 2024 - August 2024",
     description:
@@ -221,7 +248,7 @@ export const projects = [
 
   },
   {
-    id: 3,
+    id: 5,
     title: "Weather App",
     date: "March 2024 - April 2024",
     description:
@@ -254,7 +281,7 @@ export const projects = [
   // },
 
   {
-    id: 5,
+    id: 6,
     title: "Todo Web App",
     date: "Jun 2024",
     description:

@@ -58,19 +58,38 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    :hover {
-      color: ${({ theme }) => theme.primary};
-    }
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
 
-    &.active {
-      border-bottom: 2px solid ${({ theme }) => theme.primary};
-    }
+  /* underline effect using ::after */
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: ${({ theme }) => theme.primary};
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &.active::after {
+    width: 100%;
+  }
 `;
+
 
 
 export const GitHubButton = styled.a`

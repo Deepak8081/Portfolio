@@ -65,12 +65,12 @@ export default function Projects() {
                         }
                       </span>
                     </div>
-                    <div className="relative overflow-hidden aspect-[16/9]">
+                    <div className="relative overflow-hidden">
                       <img
                         src={p.image}
                         alt={p.title}
                         loading="lazy"
-                        className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                        className="w-full h-full object-cover  object-center group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-tr from-transparent via-white/10 to-transparent transition-opacity duration-500" />
                     </div>

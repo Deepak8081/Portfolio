@@ -2,7 +2,7 @@ import moyoImg from "../assets/projects/moyo.png";
 import cloudvaultImg from "../assets/projects/cloudvault.jpg";
 import medcareImg from "../assets/projects/medcare.jpg";
 import erpImg from "../assets/projects/erp.png";
-import bageshwardhaamImg from "../assets/projects/bageshwardhaam.jpg";
+import bageshwardhaamImg from "../assets/projects/BageshwarDham.png";
 import jobportalImg from "../assets/projects/jobportal.png";
 import lms from "../assets/projects/learning.png";
 import wanderlust from "../assets/projects/wanderlust.png";

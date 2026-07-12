@@ -6,12 +6,7 @@ node_modules/
 # Testing
 /coverage
 
-# Production / Builds
-/build
-/dist
-/.next/
-/out/
-.compiled
+
 
 # Environment Variables (Most Important for Security)
 .env

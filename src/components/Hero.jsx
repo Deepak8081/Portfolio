@@ -98,7 +98,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative pt-[2rem] pb-6 md:pt-[6rem] md:pb-12 px-6 md:px-10 overflow-hidden"
+      className="relative pt-[4rem] pb-6 md:pt-[6rem] md:pb-12 px-6 md:px-10 overflow-hidden"
     >
       <div className="absolute inset-0 grain opacity-[0.15] pointer-events-none" />
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center relative">

@@ -8,8 +8,8 @@
 
 html,
 body {
-  background-color: #0a0e12;
-  color: #e7ecf2;
+  background-color: #030712;
+  color: #f1f5f9;
 }
 
 body {
@@ -46,11 +46,238 @@ body {
   background-size: 22px 22px;
 }
 
+/* Cybernetic subtle grid pattern with smooth radial fade */
+.grid-bg {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+}
+
+.radial-mask {
+  mask-image: radial-gradient(circle at 50% 30%, black 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(circle at 50% 30%, black 40%, transparent 80%);
+}
+
+@keyframes gradient-x {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
 .text-gradient {
   background: linear-gradient(90deg, #45d9c9 0%, #7ff0e4 50%, #45d9c9 100%);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
+}
+
+/* Electric Animated Multi-stop Shimmer Text (jvs-website style) */
+.text-gradient-electric {
+  background: linear-gradient(90deg, #38bdf8 0%, #7dd3fc 25%, #45d9c9 50%, #a78bfa 75%, #38bdf8 100%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: gradient-x 6s ease infinite;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #ffffff 0%, #7dd3fc 45%, #45d9c9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.text-gradient-blue {
+  background: linear-gradient(135deg, #93c5fd 0%, #38bdf8 45%, #818cf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.text-gradient-purple {
+  background: linear-gradient(135deg, #e7ecf2 0%, #a78bfa 50%, #45d9c9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #f0a857 0%, #ffd08a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Luminous Highlight Keywords & Pills */
+.highlight-keyword {
+  color: #7dd3fc;
+  font-weight: 600;
+  text-shadow: 0 0 16px rgba(56, 189, 248, 0.4);
+}
+
+.highlight-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.65rem;
+  border-radius: 9999px;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #7dd3fc;
+  font-size: 0.75rem;
+  font-family: var(--font-mono, monospace);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.highlight-pill-amber {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.65rem;
+  border-radius: 9999px;
+  background: rgba(240, 168, 87, 0.12);
+  border: 1px solid rgba(240, 168, 87, 0.35);
+  color: #ffd08a;
+  font-size: 0.75rem;
+  font-family: var(--font-mono, monospace);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(69, 217, 201, 0.35);
+}
+
+/* Premium Glass Surface with Specular Rim Highlight */
+.glass-panel {
+  background: rgba(10, 16, 26, 0.75);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 15px 35px -10px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.09);
+}
+
+.glass-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(14, 21, 33, 0.85) 0%, rgba(9, 14, 23, 0.92) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 
+    0 10px 30px -10px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(69, 217, 201, 0.45);
+  background: linear-gradient(135deg, rgba(18, 28, 44, 0.92) 0%, rgba(11, 18, 30, 0.96) 100%);
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 45px -12px rgba(0, 0, 0, 0.8),
+    0 0 30px -8px rgba(69, 217, 201, 0.2),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.14);
+}
+
+/* JVS-Style Top Luminous Accent Line on Cards */
+.card-top-accent {
+  position: relative;
+}
+
+.card-top-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(56, 189, 248, 0.5), transparent);
+  border-radius: 9999px;
+  opacity: 0.65;
+  transition: opacity 0.4s ease, background 0.4s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.card-top-accent:hover::before {
+  opacity: 1;
+  background: linear-gradient(to right, transparent, rgba(69, 217, 201, 0.95), transparent);
+}
+
+/* JVS-Style Sweeping Light Beam on Hover */
+.shine-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -130%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.08),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: none;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.shine-hover:hover::after {
+  animation: shimmer-sweep 0.8s ease forwards;
+}
+
+@keyframes shimmer-sweep {
+  0% { left: -130%; }
+  100% { left: 160%; }
+}
+
+/* Ambient glow orb */
+.ambient-glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Shimmer animation bar */
+.shimmer-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-badge::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  animation: shimmer 3s infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {

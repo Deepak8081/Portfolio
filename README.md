@@ -29,4 +29,4 @@ npm run build
 ---
 
 ## 👨‍💻 Author
-**Deepak Raj** — [GitHub (@Deepak8081)](https://github.com/Deepak8081)
+**Deepak** — [GitHub (@Deepak8081)](https://github.com/Deepak8081)
